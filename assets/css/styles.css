@@ -16,7 +16,7 @@
   --yellow: #fcd534;
   --progress-bar-color: var(--heading-block-color);
   --body-font: 'Roboto', -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --heading-font: 'Fira Sans Semibold', -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --heading-font: 'Roboto Bold', -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --code-font: Monaco, Consolas, Monaco, 'Andale Mono', monospace;
   --base-font-size: 24px;
   --sm-font-size: 0.9em;
@@ -105,7 +105,8 @@ body {
   font-family: var(--body-font);
   font-size: var(--base-font-size);
   font-weight: 400;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+}
 
 p, li {
   line-height: 1.4em; }
